@@ -1,0 +1,25 @@
+button {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  background-color: #b9d6ff;
+  margin-left: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+input[type="text"] {
+  background-color: #b9d6ff;
+  outline: none;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.2rem;
+  width: 25%;
+  color: #2e5b9a;
+}
+
+@media screen and (max-width: 768px) {
+  input[type="text"] {
+    width: 50%;
+  }
+}

@@ -1,0 +1,28 @@
+.Note {
+  width: 90%;
+  max-width: 600px;
+  background-color: #d0ebf3;
+  display: block;
+  margin-inline: auto;
+  border-radius: 0.3rem;
+  position: relative;
+  overflow: auto;
+  margin-top: 1.5rem;
+}
+
+.Note::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 5%;
+  width: 0.5%;
+  background-color: rgb(209, 80, 80);
+}
+
+/* @media screen and (max-width: 768px) {
+  .Note {
+    width: 90%;
+  }
+} */

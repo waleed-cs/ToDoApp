@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #2e5b9a;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+}
+
+.check {
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: all 0.75s ease;
+}
+
+p {
+  width: 35%;
+  max-width: 300px;
+  text-align: left;
+  padding: 0.25rem;
+  text-decoration: none;
+  opacity: 1;
+  transition: all 0.75s ease;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    min-width: 30%;
+  }
+}

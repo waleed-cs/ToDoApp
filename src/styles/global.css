@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #eff9fc;
+  color: #2e5b9a;
+  height: 100vh;
+}
+
+button:hover {
+  background-color: #7eb4ff;
+  transition: all 0.75s ease;
+}
